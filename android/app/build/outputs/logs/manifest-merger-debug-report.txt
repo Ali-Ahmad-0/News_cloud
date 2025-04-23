@@ -27,8 +27,6 @@ INJECTED from C:\Users\amrta\OneDrive\Desktop\Programming\Flutter\news\android\a
 INJECTED from C:\Users\amrta\OneDrive\Desktop\Programming\Flutter\news\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from C:\Users\amrta\OneDrive\Desktop\Programming\Flutter\news\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 MERGED from [:webview_flutter_android] C:\Users\amrta\AppData\Local\Pub\Cache\hosted\pub.dev\webview_flutter_android-4.4.1\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:path_provider_android] C:\Users\amrta\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.17\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:sqflite_android] C:\Users\amrta\AppData\Local\Pub\Cache\hosted\pub.dev\sqflite_android-2.4.1\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\amrta\.gradle\caches\8.10.2\transforms\bca494c34fe3256c900c2345b245c38a\transformed\fragment-1.7.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.webkit:webkit:1.12.1] C:\Users\amrta\.gradle\caches\8.10.2\transforms\38e0910533d8d3bbe0f39cd1481503bc\transformed\webkit-1.12.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.window:window:1.2.0] C:\Users\amrta\.gradle\caches\8.10.2\transforms\48e7e259fc1ecc3a5c0f7fb36c918951\transformed\jetified-window-1.2.0\AndroidManifest.xml:17:1-31:12
@@ -86,10 +84,6 @@ INJECTED from C:\Users\amrta\OneDrive\Desktop\Programming\Flutter\news\android\a
 INJECTED from C:\Users\amrta\OneDrive\Desktop\Programming\Flutter\news\android\app\src\debug\AndroidManifest.xml
 MERGED from [:webview_flutter_android] C:\Users\amrta\AppData\Local\Pub\Cache\hosted\pub.dev\webview_flutter_android-4.4.1\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:webview_flutter_android] C:\Users\amrta\AppData\Local\Pub\Cache\hosted\pub.dev\webview_flutter_android-4.4.1\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:path_provider_android] C:\Users\amrta\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.17\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:path_provider_android] C:\Users\amrta\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.17\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:sqflite_android] C:\Users\amrta\AppData\Local\Pub\Cache\hosted\pub.dev\sqflite_android-2.4.1\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:sqflite_android] C:\Users\amrta\AppData\Local\Pub\Cache\hosted\pub.dev\sqflite_android-2.4.1\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\amrta\.gradle\caches\8.10.2\transforms\bca494c34fe3256c900c2345b245c38a\transformed\fragment-1.7.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\amrta\.gradle\caches\8.10.2\transforms\bca494c34fe3256c900c2345b245c38a\transformed\fragment-1.7.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.webkit:webkit:1.12.1] C:\Users\amrta\.gradle\caches\8.10.2\transforms\38e0910533d8d3bbe0f39cd1481503bc\transformed\webkit-1.12.1\AndroidManifest.xml:5:5-44

@@ -1,27 +1,24 @@
-import 'dart:io';
-
 import 'package:flutter/material.dart';
-import 'package:test/views/homePage.dart';
-class MyHttpOverrides extends HttpOverrides {
-  @override
-  HttpClient createHttpClient(SecurityContext? context) {
-    return super.createHttpClient(context)
-      ..badCertificateCallback = (X509Certificate cert, String host, int port) => true;
-  }
-}
+import 'package:store/Screens/HomePage.dart';
+import 'package:store/Screens/Update_product_page.dart' show UpdateProductPage;
+
+
 void main() {
-    HttpOverrides.global = MyHttpOverrides();
-  runApp(const News());
+  runApp(const StoreApp()); // Removed the required parameter issue
 }
 
-class News extends StatelessWidget {
-  const News({super.key});
+class StoreApp extends StatelessWidget {
+  const StoreApp({super.key}); // Removed the productModel parameter
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      routes: {
+        Homepage.id: (context) =>  const Homepage(),
+        UpdateProductPage.id: (context) =>  const UpdateProductPage(),
+      },
+      initialRoute: Homepage.id,
       debugShowCheckedModeBanner: false,
-      home: Homepage(),
     );
   }
 }
