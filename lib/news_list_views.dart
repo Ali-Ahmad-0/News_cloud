@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'package:test/list_tile.dart';
 import 'package:test/models/article_model.dart';
 

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:test/category.dart';
 import 'package:test/models/category_model.dart';
 
-
 class CatList extends StatelessWidget {
   const CatList({super.key});
   final List<CategoryModel> categories = const [

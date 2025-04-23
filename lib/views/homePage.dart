@@ -10,26 +10,28 @@ class Homepage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        flexibleSpace: ClipRect(
-          child: BackdropFilter(
-            filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
-            child: Container(color: Colors.transparent),
+          flexibleSpace: ClipRect(
+            child: BackdropFilter(
+                filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
+                child: Container(
+                  color: Colors.transparent,
+                )),
           ),
-        ),
-        backgroundColor: Colors.white.withAlpha(200),
-        elevation: 0,
+          backgroundColor: Colors.white.withAlpha(200),
+          elevation: 0,
         title: Row(
           mainAxisSize: MainAxisSize.min,
           children: [
             Text(
               'News Cloud',
               style: const TextStyle(fontSize: 35, fontWeight: FontWeight.bold),
+           
             ),
             const Icon(
               Icons.cloud_circle_rounded,
-              color: Colors.black,
+              color: Colors.blue,
               size: 35,
-            ),
+            )
           ],
         ),
       ),
@@ -38,9 +40,15 @@ class Homepage extends StatelessWidget {
         child: CustomScrollView(
           physics: BouncingScrollPhysics(),
           slivers: [
-            SliverToBoxAdapter(child: CatList()),
-            SliverToBoxAdapter(child: SizedBox(height: 15)),
-            NewsListViewBuilder(categoryName: 'general'),
+            SliverToBoxAdapter(
+              child: CatList(),
+            ),
+            SliverToBoxAdapter(
+              child: SizedBox(height: 15),
+            ),
+            NewsListViewBuilder(
+              categoryName: 'general',
+            )
           ],
         ),
       ),

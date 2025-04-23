@@ -1,7 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:test/models/news_list_view_builder.dart';
+import 'package:test/models/news_list_view_builder.dart' show NewsListViewBuilder;
 
 class CategoryView extends StatelessWidget {
   const CategoryView({super.key, required this.category});

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-
-import 'package:test/models/article_model.dart';
-import 'package:test/views/web_view.dart' show WebView;
+import 'package:test/models/article_model.dart' show ArticleModel;
+import 'package:test/views/web_view.dart';
 
 class NewsList extends StatelessWidget {
   final ArticleModel articleModel;

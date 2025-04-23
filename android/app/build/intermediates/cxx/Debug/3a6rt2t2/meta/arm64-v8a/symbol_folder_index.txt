@@ -1,0 +1,1 @@
+C:\Users\amrta\OneDrive\Desktop\Programming\Flutter\news\android\app\build\intermediates\cxx\Debug\3a6rt2t2\obj\arm64-v8a
