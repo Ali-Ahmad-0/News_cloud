@@ -9,7 +9,7 @@ class CustomCard extends StatefulWidget {
   final ProductModel productModel;
 
   @override
-  _CustomCardState createState() => _CustomCardState();
+   createState() => _CustomCardState();
 }
 
 class _CustomCardState extends State<CustomCard> {
